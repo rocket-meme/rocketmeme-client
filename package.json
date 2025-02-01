@@ -1,0 +1,23 @@
+{
+  "name": "rocketmeme",
+  "version": "1.0.0",
+  "description": "RocketMeme API for Trading Solana Raydium and PumpFun Meme Coins",
+  "type": "module",
+  "keywords": [
+    "solana",
+    "api",
+    "transactions",
+    "rocketmeme",
+    "raydium",
+    "pumpfun"
+  ],
+  "author": "Rocketmeme",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "bs58": "^4.0.1",
+    "got": "^14.4.5",
+    "net": "^1.0.2",
+    "path": "^0.12.7",
+    "yargs": "^17.7.2"
+  }
+}
