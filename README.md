@@ -6,7 +6,7 @@ A Solana-based trading bot for meme coins, integrating **persistent-stream** and
 
 ## 📌 Overview
 
-This project enables trading Solana meme coins using the **[rocketmeme API](https://rocketmeme.io/docs)**. It offers two execution approaches:
+This project enables trading Solana meme coins using the **RocketMeme.io API**. It offers two execution approaches:
 
 1. **Persistent Stream (`persistent-stream`)**:
 
