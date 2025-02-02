@@ -8,18 +8,18 @@ A Solana-based trading bot for meme coins, integrating **persistent-stream** and
 
 This project enables trading Solana meme coins using the **RocketMeme.io API**. It offers two execution approaches:
 
-1. **Persistent Stream (****`persistent-stream`****)**:
+1. **Persistent Stream (`persistent-stream`)**:
 
    - Maintains a persistent **HTTP/2** connection to RocketMeme's API.
    - Uses **Unix sockets** or **Windows named pipes** for efficient inter-process communication.
    - Best suited for **high-frequency** trading.
 
-2. **Standard Request (****`standard-request`****)**:
+2. **Standard Request (`standard-request`)**:
 
    - Makes individual **HTTP POST requests** for each trade.
    - Simpler to use but has a slight overhead due to HTTP session initialization.
 
-💡 **Alternative Execution Method:** You can also execute your trades seamlessly through our **[RocketMeme Web App](https://app.rocketmeme.io/)**, providing a user-friendly and efficient way to trade directly from your browser. For more details, refer to our **[Web App Documentation](https://rocketmeme.io/docs)**., providing a user-friendly and efficient way to trade directly from your browser.
+💡 **Alternative Execution Method:** You can also execute your trades seamlessly through our **[RocketMeme Web App](https://app.rocketmeme.io/)**, providing a user-friendly and efficient way to trade directly from your browser. For more details, refer to our **[Web App Documentation](https://rocketmeme.io/docs)**.
 
 ---
 
@@ -49,6 +49,17 @@ This project enables trading Solana meme coins using the **RocketMeme.io API**. 
 | **slippage** | Acceptable slippage in percentage (range: 0–50) | `10` |
 | **priorityFees** | Additional SOL fee to prioritize the transaction | `0.008` |
 | **market** | `'pumpfun'` or `'raydium'` | `'raydium'` |
+
+---
+
+## 📦 Requirements
+
+To use RocketMeme Trading Bot, ensure you have the following:
+
+- **Node.js** (v20.8 or later)
+- **npm or yarn** package manager
+- **Access to a Solana RPC endpoint**
+- **Solana Wallet**
 
 ---
 
