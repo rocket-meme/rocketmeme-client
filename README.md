@@ -1,6 +1,6 @@
 # 🚀 RocketMeme Trading API
 
-A Solana-based trading API for Raydium and pumpFun meme coins, integrating **persistent-stream** and **standard-request** modules to execute transactions through RocketMeme.io API.
+A Solana-based trading API for Raydium and pumpFun meme coins, integrating **persistent-stream** and **standard-request** modules to execute transactions through our API.
 
 ---
 
