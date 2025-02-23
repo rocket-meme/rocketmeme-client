@@ -107,9 +107,9 @@ node persistent-stream/persistent-client.js
 The standard-request module makes a **single HTTP request per transaction**.
 
 #### **[Update your configurations](#️-configuration-parameters)**
-sh
+```
 node standard-request/standard-client.js
-
+```
 
 - No need to establish a persistent connection.
 
