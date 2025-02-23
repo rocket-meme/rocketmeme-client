@@ -72,28 +72,30 @@ Our trading fee is set at a low rate of **0.4%** of the original trading amount,
 
 ## 🚀 How to Execute
 
-#### **Step 1: Clone the Repository**
-sh
-git clone https://github.com/rocket-meme/rocketmeme-client.git
-cd rocketmeme-client
-npm install
+### 🚀 **Getting Started**
 
+#### **Step 1: Clone the Repository**  
+```
+git clone https://github.com/rocket-meme/rocketmeme-client.git  
+cd rocketmeme-client  
+npm install  
+```
 
 ### 1️⃣ Persistent Stream (Long-Lived Connection)
 
 The persistent-stream module establishes a **long-lived** connection and efficiently handles transactions.
 
 #### **Step 2: Start the Persistent Connection**
-sh
+```
 node persistent-stream/utils/rocketmeme-persistent-connection.js --server https://trade.rocketmeme.io
-
+```
 
 - This connects to RocketMeme's trading server and listens for requests.
 
 #### **Step 3: [Update your configurations](#️-configuration-parameters)**
-sh
+```
 node persistent-stream/persistent-client.js
-
+```
 
 - This sends a trade request using the **persistent socket**.
 - Best for **ultra-low latency** trading.
